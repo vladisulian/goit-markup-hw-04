@@ -76,8 +76,7 @@ address,
   font-style: normal;
 }
 
-/* common styles */
-/* common styles */
+/* ----------------common styles---------------- */
 
 .container {
   width: 1200px;
@@ -118,9 +117,8 @@ address,
   box-shadow: 0 0 0 1.5px var(--focus_bg_col);
 }
 
-/* common styles end */
-/* index html styles */
-
+/* ----------------common styles end ---------------- */
+/* ----------------HEADER---------------- */
 .header {
   height: 80px;
 
@@ -162,9 +160,6 @@ address,
   display: flex;
   margin-left: auto;
 }
-/* .contacts_li {
-  margin-left: 50px;
-} */
 
 .phone_header {
   margin-left: 50px;
@@ -190,10 +185,10 @@ address,
 
   background-color: var(--main_bg_col);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../images/main_bg_pic.jpg); 
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    url(../images/main_bg_pic.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .main_text {
   /* flex: content; */
@@ -235,7 +230,7 @@ address,
 
   cursor: pointer;
 }
-
+/* ----------------TRAITS---------------- */
 .traits_list_block {
   display: flex;
   gap: 30px;
@@ -278,7 +273,7 @@ address,
 .wawd_list_pic:not(:first-child) {
   margin-left: 30px;
 }
-
+/* ----------------OUR TEAM SECT---------------- */
 .our_team_sect {
   /* padding-bottom: 94px; */
   text-align: center;
@@ -325,7 +320,7 @@ address,
   color: var(--undertittle_col);
 }
 
-/* footer */
+/* ----------------FOOTER---------------- */
 
 .footer {
   /* height: 252px; */
@@ -364,7 +359,7 @@ address,
   color: var(--footer_contacts_col);
 }
 
-/* portfolio.html styles */
+/* ----------------portfolio.html styles---------------- */
 
 .filter_section {
   /* padding: 94px 215px; */
@@ -372,7 +367,7 @@ address,
 
   /* text-align: center; */
 }
-
+/* ----------------BTN BLOCK---------------- */
 .filter_button_block {
   display: flex;
   padding-bottom: 34px;
@@ -414,7 +409,7 @@ address,
   /* !!flex-basis didn't work!! */
   /* flex-basis: calc((100% - 40px) / 3); */
 }
-
+/* ----------------FILTER IMG---------------- */
 .filter_img {
   width: 370px;
 }
