@@ -179,9 +179,12 @@ address,
 .icon_phone {
   width: 10px;
   height: 16px;
-  margin-right: 10px;
+  /* margin-right: 10px; */
 }
 /* =======SVG HOVER====== */
+.phone_header{
+  margin-left: 10px;
+}
 .svg {
   fill: var(--calm_state_svg);
 }
