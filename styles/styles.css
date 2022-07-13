@@ -37,6 +37,8 @@ a {
   --btn_bg_cl: #2196f3;
   --btn_bg_darker_cl: #0a85eb;
   --btn_txt_cl: #ffffff;
+  /* svg */
+  --svg-box-bg-col: #f5f4fa;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -181,8 +183,16 @@ address,
   height: 16px;
   /* margin-right: 10px; */
 }
+.traits_svg {
+  margin: 25px 100px;
+
+  width: 70px;
+  height: 70px;
+}
+
+
 /* =======SVG HOVER====== */
-.phone_header{
+.phone_header {
   margin-left: 10px;
 }
 .svg {
@@ -191,8 +201,6 @@ address,
 .svg:hover {
   fill: var(--accent_col);
 }
-
-
 
 .current {
   color: var(--accent_col);
@@ -253,6 +261,16 @@ address,
 .traits_list_block {
   display: flex;
   gap: 30px;
+}
+.main-svg-box {
+  width: 270px;
+  height: 120px;
+
+  background: var(--svg-box-bg-col);
+  border-radius: 4px;
+  /* text-align: center; */
+
+  margin-bottom: 30px;
 }
 .trait_text {
   font-weight: 700;
