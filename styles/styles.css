@@ -158,11 +158,27 @@ address,
   display: flex;
   margin-left: auto;
 }
+.contacts {
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: var(--contacts_col);
+  padding: 32px 0;
+}
+.mail_header {
+  margin-right: 30px;
+}
 /* ==========ICON SVG========== */
 
 .icon_mail {
   width: 16px;
   height: 12px;
+  margin-right: 10px;
+}
+.icon_phone {
+  width: 10px;
+  height: 16px;
   margin-right: 10px;
 }
 /* =======SVG HOVER====== */
@@ -172,27 +188,11 @@ address,
 .svg:hover {
   fill: var(--accent_col);
 }
-.icon_smartphone{
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-  margin-left: 0;
-}
 
-.phone_header {
-  margin-left: 50px;
-}
+
 
 .current {
   color: var(--accent_col);
-}
-.contacts {
-  font-weight: 500;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
-  color: var(--contacts_col);
-  padding: 32px 0;
 }
 
 .main_bg {
