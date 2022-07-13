@@ -189,7 +189,14 @@ address,
   width: 70px;
   height: 70px;
 }
+.our-team-svg {
+  width: 20px;
+  height: 20px;
 
+  margin-top: 16px;
+  margin-left: 32px;
+  margin-bottom: 30px;
+}
 
 /* =======SVG HOVER====== */
 .phone_header {
@@ -346,6 +353,12 @@ address,
   text-align: center;
 
   color: var(--undertittle_col);
+}
+.our-team-svg-container {
+  display: flex;
+  width: 206px;
+  height: 44px;
+  margin-top: 16px;
 }
 
 /* ----------------FOOTER---------------- */
