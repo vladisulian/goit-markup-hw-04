@@ -27,6 +27,7 @@ a {
   --white: #ffffff;
   --header_line_color: #ececec;
   --contacts_col: #757575;
+  --calm_state_svg: #757575;
   --footer_contacts_col: rgba(255, 255, 255, 0.6);
   --Studio_text: #000000;
   --text_col: #212121;
@@ -97,6 +98,7 @@ address,
 .footer_map:hover {
   color: var(--accent_col);
 }
+
 .btn:hover {
   color: var(--btn_txt_cl);
   background-color: var(--btn_bg_darker_cl);
@@ -156,10 +158,25 @@ address,
   display: flex;
   margin-left: auto;
 }
-.icon_mail{
+/* ==========ICON SVG========== */
+
+.icon_mail {
   width: 16px;
   height: 12px;
   margin-right: 10px;
+}
+/* =======SVG HOVER====== */
+.svg {
+  fill: var(--calm_state_svg);
+}
+.svg:hover {
+  fill: var(--accent_col);
+}
+.icon_smartphone{
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  margin-left: 0;
 }
 
 .phone_header {
