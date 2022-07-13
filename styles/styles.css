@@ -93,6 +93,11 @@ address,
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.our-team-svg:hover {
+  background-color: var(--accent_col);
+  color: white;
+  fill: white;
+}
 
 .nav_text:hover,
 .contacts:hover,
@@ -196,6 +201,8 @@ address,
   margin-top: 16px;
   margin-left: 32px;
   margin-bottom: 30px;
+
+  cursor: pointer;
 }
 
 /* =======SVG HOVER====== */
@@ -360,7 +367,30 @@ address,
   height: 44px;
   margin-top: 16px;
 }
+/* ===========CUSTOMERS===========*/
 
+.customers-text {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+
+  margin-bottom: 50px;
+}
+.customers-list {
+  flex-wrap: nowrap;
+  gap: 30px;
+
+  max-width: 1170px;
+
+  margin: auto;
+}
+
+.customers-svg {
+  box-sizing: border-box;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
 /* ----------------FOOTER---------------- */
 
 .footer {
