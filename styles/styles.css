@@ -391,6 +391,10 @@ address,
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
+.customers-svg:hover {
+  border: 1px solid var(--accent_col);
+  cursor: pointer;
+}
 /* ----------------FOOTER---------------- */
 
 .footer {
@@ -400,6 +404,9 @@ address,
 }
 
 .footer_web {
+  display: block;
+  margin-bottom: 20px;
+
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
@@ -434,8 +441,9 @@ address,
 /* ----------------BTN BLOCK---------------- */
 .filter_button_block {
   display: flex;
-  padding-bottom: 34px;
+  margin-bottom: 34px;
 
+  gap: 8px;
   /* выравнивание кнопок */
   justify-content: center;
 }
@@ -481,8 +489,8 @@ address,
 .filter_img_text {
   padding: 20px 24px;
 
-  background: #ffffff;
   border: 1px solid #eeeeee;
+  border-top: none;
 }
 
 .img_text {
