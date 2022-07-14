@@ -493,7 +493,7 @@ address,
   border-top: none;
 }
 
-.img_text {
+.filter_img_text {
   font-weight: 700;
   font-size: 18px;
   line-height: calc(36 / 18);
@@ -502,7 +502,7 @@ address,
 
   margin-bottom: 4px;
 }
-.img_downer_text {
+.filter_img_downer_text {
   font-size: 16px;
   line-height: calc(30 / 16);
 
