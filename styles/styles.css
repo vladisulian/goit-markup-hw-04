@@ -384,6 +384,8 @@ address,
 }
 
 .our-team-svg-link {
+  height: 44px;
+  width: 44px;
   border-radius: 50%;
 }
 
