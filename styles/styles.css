@@ -197,20 +197,8 @@ address,
   fill: currentColor;
 }
 .traits_svg {
-  margin: 25px 100px;
-
   width: 70px;
   height: 70px;
-}
-.our-team-svg {
-  width: 20px;
-  height: 20px;
-
-  margin-top: 16px;
-  margin-left: 32px;
-  margin-bottom: 30px;
-
-  cursor: pointer;
 }
 
 /* =======SVG HOVER====== */
@@ -289,6 +277,9 @@ address,
   gap: 30px;
 }
 .main-svg-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 270px;
   height: 120px;
 
@@ -371,13 +362,34 @@ address,
   line-height: calc(19 / 16);
   text-align: center;
 
+  margin-bottom: 16px;
+
   color: var(--undertittle_col);
 }
-.our-team-svg-container {
+
+.our-team-list {
   display: flex;
-justify-content: center;
-  margin-top: 16px;
+  justify-content: center;
+  gap: 10px;
+
+  /* margin-bottom: 30px; */
 }
+.our-team-svg {
+  width: 20px;
+  height: 20px;
+
+  fill: currentColor;
+
+  cursor: pointer;
+}
+.our-team-svg:not(:first-child) {
+  padding-left: 10px;
+}
+
+.our-team-item {
+  gap: 10px;
+}
+
 /* ===========CUSTOMERS===========*/
 
 .customers-text {
