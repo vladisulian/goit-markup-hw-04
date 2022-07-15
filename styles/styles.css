@@ -390,7 +390,6 @@ address,
 .our-team-svg-link {
   height: 44px;
   width: 44px;
-  border-radius: 50%;
 }
 
 /* ===========CUSTOMERS===========*/
@@ -475,7 +474,7 @@ address,
   border-radius: 50%;
   fill: currentColor;
 }
-.footer-svg:hover{
+.footer-svg:hover {
   background-color: var(--accent_col);
   fill: white;
 }
@@ -529,15 +528,15 @@ address,
   /* flex-basis: calc((100% - 40px) / 3); */
 }
 /* ----------------FILTER IMG---------------- */
-.filter_img {
+.filter_item {
   width: 370px;
 }
 
-.filter_img_text {
+.filter_img_container {
   padding: 20px 24px;
 
-  border: 1px solid #eeeeee;
   border-top: none;
+  border: 1px solid #eeeeee;
 }
 
 .filter_img_text {
@@ -549,6 +548,11 @@ address,
 
   margin-bottom: 4px;
 }
+.filter_img:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .filter_img_downer_text {
   font-size: 16px;
   line-height: calc(30 / 16);
