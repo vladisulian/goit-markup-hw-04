@@ -86,6 +86,10 @@ address,
   display: flex;
   align-items: center;
 }
+.join-link-container {
+  display: flex;
+  align-items: baseline;
+}
 .our_team_text_container {
   padding: 30px 0;
 }
@@ -407,8 +411,6 @@ address,
 
   max-width: 1170px;
 }
-.customers-item {
-}
 
 .customers-svg {
   width: 170px;
@@ -458,6 +460,24 @@ address,
   line-height: 24px;
 
   color: var(--footer_contacts_col);
+}
+
+.join-text {
+  font-weight: 700;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  margin-bottom: 20px;
+}
+.footer-svg {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  fill: currentColor;
+}
+.footer-svg:hover{
+  background-color: var(--accent_col);
+  fill: white;
 }
 
 /* ----------------portfolio.html styles---------------- */
