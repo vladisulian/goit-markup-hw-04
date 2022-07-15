@@ -382,9 +382,7 @@ address,
 
   cursor: pointer;
 }
-/* .our-team-svg:not(:first-child) {
-  padding-left: 10px;
-} */
+
 .our-team-svg-link {
   border-radius: 50%;
 }
@@ -408,17 +406,18 @@ address,
   max-width: 1170px;
 }
 .customers-item {
-
 }
 
-.customers-svg {  width: 170px;
+.customers-svg {
+  width: 170px;
   height: 92px;
   box-sizing: border-box;
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
 .customers-svg:hover {
-  border: 1px solid var(--accent_col);
+  border-color: var(--accent_col);
+  color: red;
   cursor: pointer;
 }
 /* ----------------FOOTER---------------- */
