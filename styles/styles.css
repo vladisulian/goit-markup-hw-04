@@ -381,10 +381,13 @@ address,
 .our-team-svg {
   width: 20px;
   height: 20px;
+  fill: currentColor;
   color: #757575;
   margin: auto;
-
-  fill: currentColor;
+}
+.our-team-svg:hover {
+  color: white;
+  padding: 1px 1px;
 }
 
 .our-team-svg-item {
@@ -394,16 +397,15 @@ address,
 
   width: 44px;
   height: 44px;
-}
-.our-team-svg-item {
+
   border-radius: 50%;
 }
+
 .our-team-svg-item:hover {
   background-color: var(--accent_col);
   border-radius: 50%;
-  fill: red;
-  color: red;
 }
+
 /* .our-team-svg:hover {
   border-radius: 50%;
   color: white;
@@ -485,12 +487,17 @@ address,
 
   margin-bottom: 20px;
 }
-.footer-svg {
+.join-footer {
+  margin-left: 70px;
+}
+.join-footer-item {
   background-color: rgba(255, 255, 255, 0.1);
-  color: white;
   border-radius: 50%;
-  border: 1px solid red;
-  fill: currentColor;
+  fill: white;
+}
+.footer-svg {
+  /* background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%; */
 }
 .footer-svg:hover {
   background-color: var(--accent_col);
