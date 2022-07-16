@@ -97,12 +97,6 @@ address,
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.our-team-svg:hover {
-  border-radius: 50%;
-  background-color: var(--accent_col);
-  color: white;
-  fill: white;
-}
 
 .nav_text:hover,
 .contacts:hover,
@@ -379,19 +373,42 @@ address,
 
   /* margin-bottom: 30px; */
 }
+.our-team-list:hover {
+  /* border-radius: 50px; */
+  color: white;
+}
+
 .our-team-svg {
   width: 20px;
   height: 20px;
+  color: #757575;
+  margin: auto;
 
   fill: currentColor;
-
-  cursor: pointer;
 }
 
-.our-team-svg-link {
-  height: 44px;
+.our-team-svg-item {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
   width: 44px;
+  height: 44px;
 }
+.our-team-svg-item {
+  border-radius: 50%;
+}
+.our-team-svg-item:hover {
+  background-color: var(--accent_col);
+  border-radius: 50%;
+  fill: red;
+  color: red;
+}
+/* .our-team-svg:hover {
+  border-radius: 50%;
+  color: white;
+  background-color: var(--accent_col);
+} */
 
 /* ===========CUSTOMERS===========*/
 
@@ -421,8 +438,6 @@ address,
 }
 .customers-svg:hover {
   border-color: var(--accent_col);
-  color: red;
-  cursor: pointer;
 }
 /* ----------------FOOTER---------------- */
 
@@ -472,7 +487,9 @@ address,
 }
 .footer-svg {
   background-color: rgba(255, 255, 255, 0.1);
+  color: white;
   border-radius: 50%;
+  border: 1px solid red;
   fill: currentColor;
 }
 .footer-svg:hover {
