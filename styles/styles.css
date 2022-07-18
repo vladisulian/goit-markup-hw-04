@@ -396,7 +396,8 @@ address,
   color: var(--icon_color);
 }
 
-.our-team-link:hover {
+.our-team-link:hover,
+.our-team-link:focus {
   color: white;
   background-color: var(--accent_col);
 }
