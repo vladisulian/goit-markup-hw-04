@@ -483,16 +483,14 @@ address,
   margin-left: 70px;
 }
 .join-footer-item {
+  fill: white;
+
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-  fill: white;
 }
-
-.footer-svg:hover {
-  background-color: var(--accent_col);
-  fill: white;
+.join-svg {
+  color: white;
 }
-
 /* ----------------portfolio.html styles---------------- */
 
 .filter_section {
