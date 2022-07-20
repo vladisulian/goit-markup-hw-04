@@ -168,6 +168,9 @@ address,
   display: flex;
   margin-left: auto;
 }
+.contacts-item {
+  margin-right: 30px;
+}
 .contacts {
   display: flex;
   align-items: center;
@@ -394,7 +397,7 @@ address,
 
 .our-team-link:hover,
 .our-team-link:focus {
-  color: white;
+  color: var(--btn_txt_cl);
   background-color: var(--accent_col);
 }
 
@@ -417,19 +420,16 @@ address,
 .customers-list {
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 30px;
-
-  max-width: 1170px;
 }
 .customers-link {
   display: flex;
   justify-content: center;
   align-items: center;
 
-  border: 1px solid #afb1b8;
+  border: 1px solid var(--icon_color);
   border-radius: 4px;
-  color: #afb1b8;
+  color: var(--icon_color);
 
   width: 170px;
   height: 92px;
@@ -489,7 +489,7 @@ address,
   font-weight: 700;
   line-height: 16px;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--btn_txt_cl);
 
   margin-bottom: 20px;
 }
@@ -513,7 +513,7 @@ address,
 /* ----------------BTN BLOCK---------------- */
 .filter_button_block {
   display: flex;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 
   gap: 8px;
   /* выравнивание кнопок */
